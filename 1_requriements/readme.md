@@ -26,7 +26,7 @@ The adetailed explanation for keypad interfacing is given in above mentioned art
 6.     Preset
 # Strength
 Keypads are widely used input devices being used in various electronics and embedded projects
-# weakness
+
 # OPPURTUNITIES
 keypads are one of the most popular components that are widely used in electronics everybody can communicate with the system by switches,normally every key occupies one digital pin of the microcontroller.But by using a 3x4 Keypad you can reduce the occupied pins.With this module,you can use all 12 switches by occupying only 7 pins of the microcontroller.
 # 4W'S and 1'H
