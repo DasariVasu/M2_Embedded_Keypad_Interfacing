@@ -24,4 +24,35 @@ The adetailed explanation for keypad interfacing is given in above mentioned art
 4.      ATmega16
 5.     LCD
 6.     Preset
+# Strength
+Keypads are widely used input devices being used in various electronics and embedded projects
+# weakness
+# OPPURTUNITIES
+keypads are one of the most popular components that are widely used in electronics everybody can communicate with the system by switches,normally every key occupies one digital pin of the microcontroller.But by using a 3x4 Keypad you can reduce the occupied pins.With this module,you can use all 12 switches by occupying only 7 pins of the microcontroller.
+# 4W'S and 1'H
+# What
+Keypads are widely used input devices being used in various electronics and embedded projects. They are used to take inputs in the form of numbersand feed the same into system for further processing.
+# Where
+Matrix keypads are the kind of keypads you see on cell phones, calculators, microwaves ovens, door locks, etc. They’re practically everywhere.
+# When
+ Matrix Keypad is a very useful module for embedded systems and a variety of projects. This tutorial briefly explains the interface of 4×3 and 4×4 keypads with Arduino and few programs using keypad library, including code for 16×2 LCD display.
+ # why
+ Everybody can communicate with the system by switches. Normally, every key occupies one digital pin of the microcontroller. But by using a 3×4 keypad you can reduce the occupied pins. With this module, you can use all 12 switches by occupying only 7 pins of the microcontroller.
+ # How
+ The keypad 4x3 features a toatl of 12 buttons in matrix form.consider 4 rows as input and 3 columns as ouput.Each switch is connected from one side to a row and from the other side to a column.For example,if we press switch number 1 the input of this row is saved at the ouput of its column.The image below shows the internal circuit of this keypad/keyboard.
+ 
+
+## Detail Requirements
+__High Level Requirements__
+| ID |   Description  |             Status   |
+|----|----------------|----------------------|
+| HLR1 | Keypad  |To given an inputs to device |
+| HLR2  |Atmega 16 |Microcontroller used for the entire process|
+| HLR3 | Source Code | Used for the Execute the system |
+
+__Lower Level Requirements__
+| ID |   Description  |             Status   |
+|----|----------------|----------------------|
+| LLR1 | Lcd Display  | Used to display the numbers |
+
 
