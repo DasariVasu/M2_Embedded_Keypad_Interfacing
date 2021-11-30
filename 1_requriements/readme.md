@@ -1,6 +1,6 @@
 # Requirements
 # Introduction
-In this project we are going to interface a 4x3 (12 key) keypad with ATMEGA16 microcontroller. We know that keypad is one of the most important input devices used in electronics projects. Keypad is one of the easiest ways to give commands or instructions to an electronic system.
+In this project we are going to interface a 4x3 (12 key) keypad with ATMEGA328 microcontroller. We know that keypad is one of the most important input devices used in electronics projects. Keypad is one of the easiest ways to give commands or instructions to an electronic system.
 # Research
 Keypad is most widely used input device to provide input from the outside world to the microcontroller. The keypad makes an application more users interactive.  The concept of interfacing a keypad with the ATmega16 is similar to interfacing it with any other microcontroller. The article of Interfacing keypad with 8051 can be referred for detailed description of the methodology used here. This article explains the interfacing of a 4x3 keypad with AVR microcontroller (ATmega16) and displaying the output on a LCD.
  
@@ -21,7 +21,7 @@ The adetailed explanation for keypad interfacing is given in above mentioned art
 1.     Configure the row pins or column pins.
 2.     Make all output pins to low and input pins to high.
 3.     Keep monitoring the port value, where the key pad is connected. Configure the row pins or column pins.
-4.      ATmega16
+4.      ATmega328
 5.     LCD
 6.     Preset
 Keypads are widely used input devices being used in various electronics and embedded projects,keypads are one of the most popular components that are widely used in electronics everybody can communicate with the system by switches,normally every key occupies one digital pin of the microcontroller.But by using a 3x4 Keypad you can reduce the occupied pins.With this module,you can use all 12 switches by occupying only 7 pins of the microcontroller.
@@ -43,7 +43,7 @@ __High Level Requirements__
 | ID |   Description  |             Status   |
 |----|----------------|----------------------|
 | HLR1 | AVR Microcontroller |To displaying the output on a LCD |
-| HLR2  |Atmega 16 |Microcontroller used for the entire process|
+| HLR2  |Atmega328 |Microcontroller used for the entire process|
 | HLR3 | Source Code | Used for the Execute the system |
 
 __Lower Level Requirements__
