@@ -18,13 +18,13 @@ Basic Overview and Example of Matrix Keypad Operation.
 - LED Passcode Validation Indicaton.
 # SWOT Analysis
 The adetailed explanation for keypad interfacing is given in above mentioned article. The brief steps to interface the keypad with AVR are written below:The algorithm and detailed explanation for keypad interfacing is given in above mentioned article. The brief steps to interface the keypad with AVR are written below:
-1.     Configure the row pins or column pins.
-2.     Make all output pins to low and input pins to high.
-3.     Keep monitoring the port value, where the key pad is connected. Configure the row pins or column pins.
-4.      ATmega328
-5.     LCD
-6.     Preset
+1 4*4 Keypad Interface
+2 16*2 LCD Interface
+3 AVR Atmega 328 Microcontroller
 Keypads are widely used input devices being used in various electronics and embedded projects,keypads are one of the most popular components that are widely used in electronics everybody can communicate with the system by switches,normally every key occupies one digital pin of the microcontroller.But by using a 3x4 Keypad you can reduce the occupied pins.With this module,you can use all 12 switches by occupying only 7 pins of the microcontroller.
+# Software Used
+- SimulIDE
+- Visual Studio Code
 # 4W'S and 1'H
 # What
 Keypads are widely used input devices being used in various electronics and embedded projects. They are used to take inputs in the form of numbersand feed the same into system for further processing.
@@ -36,20 +36,20 @@ Matrix keypads are the kind of keypads you see on cell phones, calculators, micr
  Everybody can communicate with the system by switches. Normally, every key occupies one digital pin of the microcontroller. But by using a 3×4 keypad you can reduce the occupied pins. With this module, you can use all 12 switches by occupying only 7 pins of the microcontroller.
  # How
  The keypad 4x3 features a toatl of 12 buttons in matrix form.consider 4 rows as input and 3 columns as ouput.Each switch is connected from one side to a row and from the other side to a column.For example,if we press switch number 1 the input of this row is saved at the ouput of its column.The image below shows the internal circuit of this keypad/keyboard.
- 
 
 ## Detail Requirements
 __High Level Requirements__
-| ID |   Description  |             Status   |
-|----|----------------|----------------------|
-| HLR1 | AVR Microcontroller |To displaying the output on a LCD |
-| HLR2  |Atmega328 |Microcontroller used for the entire process|
-| HLR3 | Source Code | Used for the Execute the system |
+|ID|	Description |	Status |
+|--|--------------|-------|
+|HLR_1|Control Unit|Implemented |
+|HLR_2|Input Unit	|Implemented|
+|HLR_3| Output Unit|Implemented |
+|HLR_4|Software Design|	Implemented |
 
-__Lower Level Requirements__
-| ID |   Description  |             Status   |
-|----|----------------|----------------------|
-| LLR1 | Lcd Display  | Used to display the numbers |
-| LLR2 | Keypad  |To given an inputs to device |
-
-
+__Low Level Requirements__
+|ID|	Description|	HLR ID	|Status|
+|--|------------|--------|-------|
+|LLR_1	|AVR Atmega 328 Microcontroller	|HLR_1	|Implemented|
+|LLR_2	|4*4 Keypad Interface|	HLR_2	|Implemented|
+ |LLR_3 	|16*2 LCD Interface	|HLR_3	|Implemented|
+ |LLR_4	|Visual Studio Code & Simulide|	HLR_4	|Implemented|
