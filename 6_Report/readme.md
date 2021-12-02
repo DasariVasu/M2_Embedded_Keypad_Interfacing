@@ -49,7 +49,7 @@ __High Level Requirements__
 __Low Level Requirements__
 |ID|	Description|	HLR ID	|Status|
 |--|------------|--------|-------|
-|LLR_1	|AVR Atmega 328 Microcontroller	|HLR_1	|Implemented|
+|LLR_1	|AVR Atmega 328 Microcontroller	|HLR_1	|Implemented|  
 |LLR_2	|4*4 Keypad Interface|	HLR_2	|Implemented|
  |LLR_3 	|16*2 LCD Interface	|HLR_3	|Implemented|
  |LLR_4	|Visual Studio Code & Simulide|	HLR_4	|Implemented|
@@ -77,6 +77,6 @@ __Low level test plan__
 |Test ID|	Description	|Exp I/P	|Exp O/P	|	Type of Test|
 |-------|-------------|---------|---------|-------------|
 |LLR_01	|Numbers Keypad|2536* |2536*| Requirement Based |
-LLR_02 |	Numbers Keypad | 	#528976*|#528976*|		Requirement Based|
+|LLR_02 |	Numbers Keypad | 	#528976*|#528976*|		Requirement Based|
 
 
