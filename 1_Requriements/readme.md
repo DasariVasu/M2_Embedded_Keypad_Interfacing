@@ -1,5 +1,7 @@
 # Requirements
+
 # Introduction
+
 In this project we are going to interface a 4x3 (12 key) keypad with ATMEGA328 microcontroller. We know that keypad is one of the most important input devices used in electronics projects. Keypad is one of the easiest ways to give commands or instructions to an electronic system.
 # Research
 Keypad is most widely used input device to provide input from the outside world to the microcontroller. The keypad makes an application more users interactive.  The concept of interfacing a keypad with the ATmega16 is similar to interfacing it with any other microcontroller. The article of Interfacing keypad with 8051 can be referred for detailed description of the methodology used here. This article explains the interfacing of a 4x3 keypad with AVR microcontroller (ATmega16) and displaying the output on a LCD.
