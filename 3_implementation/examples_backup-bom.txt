@@ -1,0 +1,8 @@
+
+Circuit: examples_backup.simu
+
+Bill of Materials:
+
+Hd44780-131 : Hd44780   
+KeyPad-129 : KeyPad   
+atmega328-130 : atmega328   
