@@ -12,4 +12,4 @@ __Low level test plan__
 |Test ID|	Description	|Exp I/P	|Exp O/P	|	Type of Test|
 |-------|-------------|---------|---------|-------------|
 |LLR_01	|Numbers Keypad|2536* |2536*| Requirement Based |
-LLR_02 |	Numbers Keypad | 	#528976*|#528976*|		Requirement Based|
+|LLR_02 |	Numbers Keypad | 	#528976*|#528976*|		Requirement Based|
