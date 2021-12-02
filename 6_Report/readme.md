@@ -62,6 +62,8 @@ __Low Level Requirements__
 ![image](https://github.com/DasariVasu/M2-Embedded_Keypad_Interfacing/blob/main/2_Designs/Block%20Diagram.jpg?raw=true)
 # Simulation (off activity) 
 ![image](https://raw.githubusercontent.com/DasariVasu/M2-Embedded_Keypad_Interfacing/main/2_Designs/Simulation%20(off%20activity).jpg) 
+# Simulation (on activity)
+![image](https://github.com/DasariVasu/M2-Embedded_Keypad_Interfacing/blob/main/2_Designs/Untitled%20Diagram.drawio.png?raw=true)
 
 # Test Plan
 __High level test plan__
@@ -76,7 +78,7 @@ __Low level test plan__
 
 |Test ID|	Description	|Exp I/P	|Exp O/P	|	Type of Test|
 |-------|-------------|---------|---------|-------------|
-|LLR_01	|Numbers Keypad|2536* |2536*| Requirement Based |
+|LLR_01	|Numbers Keypad|12234 |12234 | Requirement Based |
 |LLR_02 |	Numbers Keypad | 	#528976*|#528976*|		Requirement Based|
 
 
