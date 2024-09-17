@@ -1,4 +1,7 @@
 # M2_Embedded_Keypad_Interfacing
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/ab9f329ebd464fe98dd61c9953e56381)](https://app.codacy.com/gh/DasariVasu/M2-Embedded_Keypad_Interfacing?utm_source=github.com&utm_medium=referral&utm_content=DasariVasu/M2-Embedded_Keypad_Interfacing&utm_campaign=Badge_Grade_Settings)
+
 This mini project is based on a numbers keypad on lcd interfacing with Avr Atmega328 microcontroller,This simple keypad which can perform of any Numbers on the display it uses 4x3 matrix keypad.The result of Numbers displayed on 4x3 Lcd display.
 
 
